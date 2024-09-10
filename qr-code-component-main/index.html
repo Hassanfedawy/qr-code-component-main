@@ -3,28 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' https://fonts.gstatic.com;">
 
+  <!-- CSP updated for both Google Fonts and self-hosted fonts -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com;">
   
   <title>Frontend Mentor | QR code component</title>
-
-
 </head>
 <body>
 
 <div class="container">
-  <img src="../qr-code-component-main/images/image-qr-code.png" alt="QR CODE" width="250px" height="auto">
+  <img src="./images/image-qr-code.png" alt="QR CODE" width="250px" height="auto">
   <h3>Improve your front-end skills by building projects</h3>
   <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-
 </div>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Alhassan Fedawy</a>.
-  </div>
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Alhassan Fedawy</a>.
+</div>
+
 </body>
 </html>
